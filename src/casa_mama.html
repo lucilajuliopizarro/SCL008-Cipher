@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+       
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cifrado cesar</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      
+      
+      h1 {
+        color :green;
+      }
+      p{
+        color:blue;
+      }
+    </style>
+</head>
+<body>
+    <header></header> 
+    <div class="casa_mama">
+        <h1>La casa segura de Mama</h1>
+        <p>A continuacion podras enviar mensajes a tus contactos, para dar aviso de algun evento en casa.
+         <p>TIPS PARA ENVIO:</p>
+         <p>1.-Despensa vacia</p>
+         <p>2.-Ruidos molestos</p> 
+          <p>3.-Desconocido Cerca</p>
+          <p>4.-Olvido de materiales</p>
+          <p>5.-LLamar por enfermedad</p>
+           </p>
+
+    </div>
+    <div class="for">
+           
+ <div >
+ <input  type ="text" placeholder = " Ingresa tu nombre " id="nombre" >
+    </div>
+    <div >
+      <!-- offset se toma desplazamiento de los mensajes-->
+        <input  type ="number" placeholder = " Ingresa tu edad "  id="edad" >
+           </div>
+
+           <div >
+             <!-- de aqui se saca el mensaje para cifar-->
+            <input  type ="text" placeholder =" Ingresa tu mensaje "  id="mensaje" >
+               </div>
+
+    </div> 
+    <div>
+      <button id="cifrar">cifrar</button>
+      <button id="descifar">descifar</button>
+    </div>
+    <!--aqui aparecera el texto a codificar-->
+    <div>
+      <textarea type="text" id="cajaResultado" cols="30" rows="10"></textarea>
+    </div>
+    <button onclick ="location.href ='msjenviando.html'" id ="Btnenviar"> Enviar Mensaje </button >
+ <!-- <div id="contenedor de datos">cambie este div por textarea
+  </div>-->
+    <script src="index.js"></script>
+    <script src="cipher.js"></script>
+</body>
+</html>
