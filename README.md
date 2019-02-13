@@ -12,6 +12,9 @@ De manera rapida y con mensajes cortos, tendran la opcion de comunicarse con sus
 ![caeser-cipher]("http://subirimagen.me/uploads/20190206091012.jpg")
 
 ## Prototipo Papel
+![](pagina1.jpg)
+![](pagina2.jpg)
+![](pagina3.jpg)
 
 ## Consideraciones técnicas
 La lógica del proyecto está implementada completamente en JavaScript(ES6), HTML y CSS.  
