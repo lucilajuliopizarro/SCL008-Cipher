@@ -9,12 +9,12 @@ Pensando en la insertidumbre de todas las madres, se creo esta pagina para dismi
 COMO FUNCIONA?
 De manera rapida y con mensajes cortos, tendran la opcion de comunicarse con sus padres, ademas sus padres,sitios de emergencia, resiviran mensaje en clave lo cual hara la emergencia mas segura.
 
-![](casasegura.jpeg)
+![](casasegura.jpg)
 
 ## Prototipo Baja Fidelidad
-![](pagina1.jpeg)
-![](pagina2.jpeg)
-![](pagina3.jpeg)
+![](pagina1.jpg)
+![](pagina2.jpg)
+![](pagina3.jpg)
 
 ## Consideraciones técnicas
 La lógica del proyecto está implementada completamente en JavaScript(ES6), HTML y CSS.  
